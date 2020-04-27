@@ -202,7 +202,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 74097489}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1441878924}
+        m_MethodName: LoadAloes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &74097489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -719,7 +730,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -60}
+  m_AnchoredPosition: {x: 290, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335859773
@@ -766,7 +777,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1441878924}
-        m_MethodName: Upgrade
+        m_MethodName: UpgradeItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -893,7 +904,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 347900471}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1441878924}
+        m_MethodName: LoadPlant
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &347900471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1399,7 +1421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 100}
+  m_AnchoredPosition: {x: 290, y: 100}
   m_SizeDelta: {x: 250, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &697628131
@@ -1420,7 +1442,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Selected: N/A
+  m_text: 'Selected:
 
     Count: N/A
 
@@ -1495,10 +1517,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 697628131}
-    characterCount: 51
+    characterCount: 47
     spriteCount: 0
-    spaceCount: 7
-    wordCount: 12
+    spaceCount: 6
+    wordCount: 10
     linkCount: 0
     lineCount: 4
     pageCount: 1
@@ -2605,7 +2627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: 0}
+  m_AnchoredPosition: {x: 290, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254978760
@@ -2652,7 +2674,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1441878924}
-        m_MethodName: Buy
+        m_MethodName: BuyItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3215,12 +3237,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemActions: {fileID: 700635767}
-  itemDesc: {fileID: 697628131}
+  itemDescText: {fileID: 697628131}
   buyCostText: {fileID: 1141136380}
   upgradeCostText: {fileID: 756812633}
   level5Capped: 1
   level10Capped: 1
   basilButton: {fileID: 816957578}
+  aloesButton: {fileID: 74097488}
+  peepalButton: {fileID: 1986248820}
+  plantButton: {fileID: 347900470}
 --- !u!1 &1500397355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3649,7 +3674,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1986248821}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1441878924}
+        m_MethodName: LoadPeepal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1986248821
 MonoBehaviour:
   m_ObjectHideFlags: 0
