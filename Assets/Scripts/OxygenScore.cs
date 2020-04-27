@@ -6,11 +6,10 @@ using TMPro;
 public class OxygenScore : MonoBehaviour
 {
     private TextMeshProUGUI textmesh;
-    private float nextSec;
+    private float nextSec = 0;
     public float modifiers = 0;
     public float oxyScore = 0;
     public bool oxyStopped = false;
-
 
     private void Start()
     {
